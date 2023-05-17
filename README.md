@@ -1,29 +1,31 @@
 # Aharonov-Bohm-Space-Charge-Effects-in-Python
-A python script simulating an electron wavepacket undergoing various quantum mechanical effects, such as double slit diffraction and the Aharanov-Bohm effect with space charge. 
-
-This program is a numerical solution to one of physics' most popular experiment: the diffraction of a single electron through two slits. More precisely it is a python script that displays an animation of the propagation of a gaussian wave packet and its interaction with an arbitrary number of slits. The program solves the two-dimensional time-dependant Schrödinger equation using Crank-Nicolson algorithm and perfectly reflecting boundary conditions.
+A python script simulating an electron wavepacket undergoing various quantum mechanical effects, such as double slit diffraction and the Aharanov-Bohm effect with space charge. The program solves the two-dimensional time-dependant Schrödinger equation using Crank-Nicolson algorithm and perfectly matched layers conditions. A full description of the code can be found here:
 
 ## Running
 
 To run this code simply clone this repository and run the animate_wave_function.py script with python (the numpy and matplotlib modules are required):
  
 ```
-$ git clone https://github.com/FelixDesrochers/Electron-diffraction/
-$ cd Electron-diffraction
-$ python animate_wave_function.py 
+$ git clone https://github.com/bcolmey/Aharonov-Bohm-Space-Charge-Effects-in-Python
+$ cd Aharonov-Bohm-Space-Charge-Effects-in-Python
+$ python run_me.py 
 ```
 
-The parameters of the simulation (shape and size of the potential, shape and speed of the wave packet, etc.) can be modified at the beginning of the animate_wave_function.py script. 
 
-## Examples
+## Examples:
 
 Here are some examples of animations produced by the program. 
+### Gaussian Wave Propagation
+![Alt text]((https://github.com/bcolmey/Aharonov-Bohm-Space-Charge-Effects-in-Python/blob/main/Animations/Wave_propagation.gif?raw=true "Title")
 
-### Large gaussian wave packet through one slit
+### Electron Diffraction Through Double Slit
 ![Alt text](https://github.com/bcolmey/Aharonov-Bohm-Space-Charge-Effects-in-Python/blob/main/Animations/Diffraction.gif?raw=true "Title")
 
-### Small gaussian wave packet through one slit
-![Alt text](https://github.com/FelixDesrochers/Electron-diffraction/blob/master/animation/2D_oneslit_dx008_dt0005_yf1.gif?raw=true "Title")
+### Space Charge Effects in Static Regime
+![Alt text](https://github.com/bcolmey/Aharonov-Bohm-Space-Charge-Effects-in-Python/blob/main/Animations/Wave_propagation.gif?raw=true "Title")
 
-### Large gaussian wave packet through two slits
-![Alt text](https://github.com/FelixDesrochers/Electron-diffraction/blob/master/animation/2D_2slits_dx008_dt0005_yf10.gif?raw=true "Title")
+### Space Charge Effects in Propagation
+![Alt text](https://github.com/bcolmey/Aharonov-Bohm-Space-Charge-Effects-in-Python/blob/main/Animations/Space_charge_moving.gif?raw=true "Title")
+
+### Aharanov Bohm Effect with Space Charge
+![Alt text](https://github.com/bcolmey/Aharonov-Bohm-Space-Charge-Effects-in-Python/blob/main/Animations/AB_demonstration.gif?raw=true "Title")
