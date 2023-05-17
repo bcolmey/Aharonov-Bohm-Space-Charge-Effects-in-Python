@@ -18,7 +18,7 @@ Here are some examples of animations produced by the program.
 ![Alt text](https://github.com/bcolmey/Aharonov-Bohm-Space-Charge-Effects-in-Python/blob/main/Animations/Wave_propagation.gif](https://github.com/bcolmey/Aharonov-Bohm-Space-Charge-Effects-in-Python/blob/main/Animations/Wave_propagation.gif)?raw=true "Title")
 
 ### Electron Diffraction Through Double Slit
-![Alt text](https://github.com/bcolmey/Aharonov-Bohm-Space-Charge-Effects-in-Python/blob/main/Animations/Diffraction.gif?raw=true "Title")
+![Alt text](https://github.com/bcolmey/Aharonov-Bohm-Space-Charge-Effects-in-Python/blob/main/Animations/Wave_propagation.gif?raw=true "Title")
 
 ### Space Charge Effects in Static Regime
 ![Alt text](https://github.com/bcolmey/Aharonov-Bohm-Space-Charge-Effects-in-Python/blob/main/Animations/Wave_propagation.gif?raw=true "Title")
