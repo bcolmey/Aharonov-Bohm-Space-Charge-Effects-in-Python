@@ -1,5 +1,5 @@
 # Aharonov-Bohm-Space-Charge-Effects-in-Python
-A python script simulating an electron wavepacket undergoing various quantum mechanical effects, such as double slit diffraction and the Aharanov-Bohm effect with space charge. The program solves the two-dimensional time-dependant Schrödinger equation using Crank-Nicolson algorithm and perfectly matched layers conditions. A full description of the code can be found here:
+A python script simulating an electron wavepacket undergoing various quantum mechanical effects, such as double slit diffraction and the Aharanov-Bohm effect with space charge. The program solves the two-dimensional time-dependant Schrödinger equation using Crank-Nicolson algorithm adapted from the work of Felix Desrochers and perfectly matched layers conditions. A full description of the code can be found here:
 
 ## Running
 
@@ -10,7 +10,6 @@ $ git clone https://github.com/bcolmey/Aharonov-Bohm-Space-Charge-Effects-in-Pyt
 $ cd Aharonov-Bohm-Space-Charge-Effects-in-Python
 $ python run_me.py 
 ```
-
 
 ## Examples:
 
